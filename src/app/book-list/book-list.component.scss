@@ -1,3 +1,14 @@
+/*
+==========================================
+ Title: in-n-out book
+  Author: Professor Krasso
+  Modifier: Sarah Jean Baptiste
+  Date: 09/26/2021
+  Description: final deployment
+==========================================
+*/
+
+//link styling
 .a-link {
   text-decoration: none;
   cursor: pointer;
@@ -7,11 +18,13 @@
   text-decoration: underline;
 }
 
+//spinner styling
 .spinner {
   padding: 20px;
   margin-left: 50%;
 }
 
+//grid container styling
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;

@@ -1,10 +1,10 @@
 /*
 ==========================================
-  Title: in-n-out book
+Title: in-n-out book
   Author: Professor Krasso
   Modifier: Sarah Jean Baptiste
-  Date: 09/08/2021
-  Description: part four
+  Date: 09/26/2021
+  Description: final deployment
 ==========================================
 */
 
@@ -42,7 +42,7 @@ export class BooksService {
     params = params.append('bibkeys', `ISBN:${this.isbns.join(',')}`);
     params = params.append('format', 'json');
     params = params.append('jscmd', 'details');
-  
+
     return this.http.get('https://openlibrary.org/api/books', {params:params});
   }
 }
